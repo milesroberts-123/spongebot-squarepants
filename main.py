@@ -8,16 +8,6 @@ from os.path import isfile, join
 
 client = discord.Client()
 
-#def get_quote():
-#  f = open('spongebobQuotes.json',)
-#  json_data = json.load(f)
-#  json_data = json_data['spongebob_quotes']
-#  json_len = len(json_data)
-#  j = random.randrange(json_len)
-#  quote = json_data[j]['q'] + " -" + json_data[j]['a']
-#  f.close()
-#  return(quote)
-
 def get_quote(character):
   f = open('spongebobQuotes.json',)
   json_data = json.load(f)
@@ -38,10 +28,6 @@ def get_image():
   choice = random.randrange(len(onlyfiles))
   return(onlyfiles[choice])
 
-#def get_song():
-#  song = random.randrange(580)
-#  return("https://www.youtube.com/watch?v=1yTNnL_v7bg&list=PLGcoTz5V2HkQXy3KU_j3yuP9PWkksoezK&index=" + str(song))
-
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
@@ -50,10 +36,6 @@ async def on_ready():
 async def on_message(message):
 
 ### COMMANDS WITH RANDOM OUTPUTS ###
-    #if message.content.startswith('$quote'):
-    #    quote = get_quote()
-    #    await message.channel.send(quote)
-
     if message.content.startswith('$quote'):
         words = message.content.split()
         if len(words) > 1:
@@ -89,10 +71,6 @@ async def on_message(message):
        randomImage = get_image()
        await message.channel.send(file=discord.File("./images/" + randomImage))
 
-#   if message.content.startswith('$randomSong'):
-#       randomSong = get_song()
-#       await message.channel.send(randomSong)
-
 ### COMMANDS WITH NON-RANDOM OUTPUTS ###
 # search the spongebob wiki
     if message.content.startswith('$search'):
@@ -101,19 +79,5 @@ async def on_message(message):
        searchString = "+".join(searchTerms)
        url = "https://spongebob.fandom.com/wiki/Special:Search?query=" + searchString + "&scope=internal&contentType=&ns%5B0%5D=0&ns%5B1%5D=114&ns%5B2%5D=115&ns%5B3%5D=500&ns%5B4%5D=502#"
        await message.channel.send(url)
-
-#    if message.content.startswith('$episodes'):
-#       await message.channel.send("https://spongebob.fandom.com/wiki/List_of_episodes")
-
-#    if message.content.startswith('$memes'):
-#       await message.channel.send("https://spongebob.fandom.com/wiki/List_of_memes")
-
-#    if message.content.startswith('$meme'):
-#       words = message.content.split()
-#       searchTerms = words[1:]
-#       searchString = "_".join(searchTerms)
-#       url = "https://spongebob.fandom.com/wiki/List_of_memes#" + searchString
-#       #url = re.sub(" ", "_", url) # replace spaces with underscore
-#       await message.channel.send(url)
 
 client.run("ENTER TOKEN HERE BUT KEEP QUOTES")
