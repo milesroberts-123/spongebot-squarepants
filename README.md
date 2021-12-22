@@ -12,8 +12,11 @@ Just use the simple commands below to get started!
 Begin your discord message with any of the commands below (including the `$`) to use Spongebot!
 
 `$quote [character]`	Need some wisdom? Pull a random spongebob quote from a custom database (json format)
+
 `$conch`	Can't make a decision? Return a magic conch answer (Possibile answers: 'Maybe someday.', 'Nothing.', 'Neither.', 'I dont think so.', 'No.', 'Yes.', 'Try asking again.')
+
 `$image`	Need to break unbearable awkward tension? Return a random spongebob image from a custom database. 
+
 `$search`	Need to settle a philisophical debate? Search the spongebob wiki with all terms that come after the search command
 
 # THANK YOU
