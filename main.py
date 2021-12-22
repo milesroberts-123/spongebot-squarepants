@@ -116,4 +116,4 @@ async def on_message(message):
 #       #url = re.sub(" ", "_", url) # replace spaces with underscore
 #       await message.channel.send(url)
 
-client.run("OTEyMzUyNzk5MjU2MzQ2NjY0.YZuswg.9plv3rbfMhnAQeaImrbGI5zvJRk")
+client.run("ENTER TOKEN HERE BUT KEEP QUOTES")
