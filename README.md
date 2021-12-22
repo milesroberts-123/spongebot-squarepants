@@ -19,6 +19,11 @@ Begin your discord message with any of the commands below (including the `$`) to
 
 `$search`	Need to settle a philisophical debate? Search the spongebob wiki with all terms that come after the search command
 
+# ADD YOUR OWN QUOTES AND IMAGES
+To add additional images that spongebot can choose from with the `$image` command, just download the image into the `images` folder.
+
+To add additional quotes, follow the format in the `spongebobQuotes.json` file. Each character gets a separate json array and each entry in each array begins with "q:" for quote.
+
 # THANK YOU
 Thank you for using Spongebot!
 May you always be porus, yellow, and absorbent!
