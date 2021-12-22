@@ -1,0 +1,101 @@
+{
+	"Spongebob Squarepants":[
+		{
+			"q": "I'm ready!"
+		},
+		{
+			"q": "I'm ugly and I'm proud!"
+		},
+		{
+			"q": "If I were to die right now in a fiery explosion due to the carelessness of a friend, then it would just be alright."
+		}
+	],
+	"Patrick Star": [
+		{
+			"q": "Who you callin pinhead?"
+		},
+		{
+			"q": "Oh boy 3AM!"
+		},
+		{
+			"q": "Is mayonnaise an instrument?"
+		},
+		{
+			"q": "The inner machinations of my mind are an enigma."
+		},
+		{
+			"q": "Once there was an ugly barnacle. He was so ugly that everyone died! The end."
+		}
+	],
+	"Sheldon J. Plankton": [
+		{
+			"q": "I WENT TO COLLEGE!"
+		},
+		{
+			"q": "Goodbye everyone, I'll remember you all in therapy."
+		},
+		{
+			"q": "You’ll never get what you want if you always let people step on you."
+		}
+	],
+	"Karen Plankton": [
+		{
+			"q": "Seaweed: 50% Sea, 50% Weed. Plankton: 1% Evil, 99% Hot Gas."
+		},
+		{
+			"q": "So, typical day of failure, I see, huh darling?"
+		},
+		{
+			"q": "The self-destruct coin slot has been activated. Ten seconds till detonation."
+		}
+	],
+	"Squidward Q. Tentacles": [
+		{
+			"q": "It's just a cruel reminder that I'm single and likely to remain that way forever."
+		},
+		{
+			"q": "I might as well sleep for 100 years or so."
+		},
+		{
+			"q": "Wake me up when I care."
+		}
+	],
+	"Eugene H. Krabs":[
+		{
+			"q": "We shall never deny a guest even the most ridiculous request."
+		},
+		{
+			"q": "It started out as a simple order. A Krabby Patty with cheese. When the customer took a bite, NO CHEESE!"
+		},
+		{
+			"q": "What?! There is no Smitty Werben Jaegerman Jensen!"
+		}
+	],
+	"Sandra Jennifer Olivia 'Sandy' Cheeks": [
+		{
+			"q": "YEEEEE-HAW!!!!!"
+		},
+		{
+			"q": "I'm hotter than a hickory smoked sausage!"
+		},
+		{
+			"q": "Don't you have to be stupid somewhere else?"
+		}
+	],
+	"Mrs. Poppy Puff": [
+	{
+		"q": "I'm in the middle of a coffee-fueled sermon right now."
+	},
+	{
+		"q": "Let the testing begin!"
+	},
+	{
+		"q": "I'm not ready."
+	}
+	],
+	"Garold Wilson Jr. The Snail": [
+		{
+			"q": "Meow."
+		}
+	]
+}
