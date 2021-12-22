@@ -19,6 +19,8 @@ Begin your discord message with any of the commands below (including the `$`) to
 
 `$search`	Need to settle a philisophical debate? Search the spongebob wiki with all terms that come after the search command
 
+# ADDING SPONGEBOT TO YOUR DISCORD SERVER
+
 # ADD YOUR OWN QUOTES AND IMAGES
 To add additional images that spongebot can choose from with the `$image` command, just download the image into the `images` folder.
 
